@@ -14,6 +14,10 @@
 		17E832302B42A72E000BF350 /* HappyNewYearCardInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8322F2B42A72E000BF350 /* HappyNewYearCardInSwiftUITests.swift */; };
 		17E8323A2B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E832392B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITests.swift */; };
 		17E8323C2B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8323B2B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITestsLaunchTests.swift */; };
+		17E832492B42A780000BF350 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E832482B42A780000BF350 /* HomeView.swift */; };
+		17E8324C2B42A79E000BF350 /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8324B2B42A79E000BF350 /* DrinkView.swift */; };
+		17E8324F2B42A827000BF350 /* UIWindow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8324E2B42A827000BF350 /* UIWindow+Extension.swift */; };
+		17E832522B42B84D000BF350 /* ImageName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E832512B42B84D000BF350 /* ImageName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		17E832352B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyNewYearCardInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17E832392B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearCardInSwiftUIUITests.swift; sourceTree = "<group>"; };
 		17E8323B2B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNewYearCardInSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17E832482B42A780000BF350 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		17E8324B2B42A79E000BF350 /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		17E8324E2B42A827000BF350 /* UIWindow+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIWindow+Extension.swift"; sourceTree = "<group>"; };
+		17E832512B42B84D000BF350 /* ImageName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,9 @@
 		17E8321D2B42A72D000BF350 /* HappyNewYearCardInSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				17E832502B42B842000BF350 /* Enums */,
+				17E8324D2B42A80B000BF350 /* Extensions */,
+				17E8324A2B42A786000BF350 /* Views */,
 				17E8321E2B42A72D000BF350 /* HappyNewYearCardInSwiftUIApp.swift */,
 				17E832202B42A72D000BF350 /* ContentView.swift */,
 				17E832222B42A72E000BF350 /* Assets.xcassets */,
@@ -125,6 +136,31 @@
 				17E8323B2B42A72E000BF350 /* HappyNewYearCardInSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = HappyNewYearCardInSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		17E8324A2B42A786000BF350 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17E8324B2B42A79E000BF350 /* DrinkView.swift */,
+				17E832482B42A780000BF350 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17E8324D2B42A80B000BF350 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				17E8324E2B42A827000BF350 /* UIWindow+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		17E832502B42B842000BF350 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				17E832512B42B84D000BF350 /* ImageName.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E832522B42B84D000BF350 /* ImageName.swift in Sources */,
+				17E832492B42A780000BF350 /* HomeView.swift in Sources */,
+				17E8324F2B42A827000BF350 /* UIWindow+Extension.swift in Sources */,
+				17E8324C2B42A79E000BF350 /* DrinkView.swift in Sources */,
 				17E832212B42A72D000BF350 /* ContentView.swift in Sources */,
 				17E8321F2B42A72D000BF350 /* HappyNewYearCardInSwiftUIApp.swift in Sources */,
 			);
